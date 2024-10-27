@@ -1,0 +1,442 @@
+GET http://localhost:8000/user/is-exist/?user_id=222
+Content-Type: application/json
+Token: 25b0c6418a4b39448a8ae7d3522912bf
+Timestamp: 1729472441
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-20T181753.200.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "333",
+  "user_name": "ccc"
+}
+
+<> 2024-10-20T181046.201.json
+
+###
+
+GET http://localhost:8000/user/is-exist/?user_id=222
+Content-Type: application/json
+Token: 25b0c6418a4b39448a8ae7d3522912bf
+Timestamp: 1729472441
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-20T180420.200.json
+
+###
+
+GET http://localhost:8000/user/is-exist/?user_id=222
+Content-Type: application/json
+Token: 25b0c6418a4b39448a8ae7d3522912bf
+Timestamp: 1727468761
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-20T180054.401.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-10-20T180041.200.json
+
+###
+
+GET http://localhost:8000/user/is-exist/?user_id=222
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-20T173755.200.json
+
+###
+
+GET http://localhost:8000/user/is-exist/222
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 44
+
+{
+  "user_id": "222",
+  "user_name": "bbb"
+}
+
+<> 2024-10-20T173624.404.html
+
+###
+
+GET http://localhost:8000/user/is-exist/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 44
+
+{
+  "user_id": "222",
+  "user_name": "bbb"
+}
+
+<> 2024-10-20T173558.200.json
+
+###
+
+GET http://localhost:8000/user/is-exist/
+Content-Type: application/json
+Token: 5b62144dc7471d40a84a1d5d59e356ff
+Timestamp: 1727468761
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 44
+
+{
+  "user_id": "222",
+  "user_name": "bbb"
+}
+
+<> 2024-10-20T173543.401.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "222",
+  "user_name": "bbb"
+}
+
+<> 2024-10-20T173410.201.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-10-20T173229.200.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "111",
+  "user_name": "aaa"
+}
+
+<> 2024-10-20T173206.409.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "111",
+  "user_name": "aaa"
+}
+
+<> 2024-09-27T133025.201.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "111",
+  "user_name": "aaa"
+}
+
+<> 2024-09-27T132612.400.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T132601.200.json
+
+###
+
+POST http://localhost:8000/user/create/
+Content-Type: application/json
+Token: 6c9731e3d4de8297232b368c2ecac335
+Timestamp: 1727468338
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": "111",
+  "user_name": "aaa"
+}
+
+<> 2024-09-27T132554.400.json
+
+###
+
+POST http://localhost:8000/user/create/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Headers:
+Content-Type: application/json
+Token: 6c9731e3d4de8297232b368c2ecac335
+Timestamp: 1727468338
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T132029.400.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T131858.200.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T131625.500.html
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T131601.500.html
+
+###
+
+POST http://localhost:8000/user/create/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T131513.400.json
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T131251.500.html
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T130955.500.html
+
+###
+
+GET http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 35
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T124246.200.json
+
+###
+
+POST http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-27T123953.403.html
+
+###
+
+POST http://localhost:8000/user/create/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-21T170829.400.json
+
+###
+
+POST http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-21T170637.403.html
+
+###
+
+POST http://localhost:8000/user/generate-token/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-21T165327.403.html
+
+###
+
+POST http://localhost:8000/user/create/
+Authorization: Basic JPI_DCIM Gds123456
+content-type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"user_id":"111","user_name":"aaa"}
+
+<> 2024-09-21T165140.400.json
+
+###
+

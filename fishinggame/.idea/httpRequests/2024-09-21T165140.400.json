@@ -1,0 +1,5 @@
+{
+  "code": 400,
+  "msg": "Missing token or timestamp",
+  "data": {}
+}

@@ -1,0 +1,25 @@
+### 创建用户
+POST {{host}}/user/create/
+Content-Type: application/json
+Token: 1e9715a7668fadc401de22aeb964d597
+Timestamp: 1727468761
+
+{
+  "user_id": "333",
+  "user_name": "ccc"
+}
+
+### 用户是否存在
+GET {{host}}/user/is-exist/?user_id=222
+Content-Type: application/json
+Token: 25b0c6418a4b39448a8ae7d3522912bf
+Timestamp: 1729472441
+
+
+
+### 生成Token
+GET {{host}}/user/generate-token/
+content-type: application/json
+Authorization: Basic JPI_DCIM Gds123456
+
+{"user_id":"111","user_name":"aaa"}

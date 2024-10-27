@@ -1,0 +1,7 @@
+### 问答测试
+POST localhost:8000/user/create
+content-type: application/json
+
+{"user_id":"111",
+"user_name":"aaa"}
+

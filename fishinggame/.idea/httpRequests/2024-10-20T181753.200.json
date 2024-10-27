@@ -1,0 +1,7 @@
+{
+  "code": 200,
+  "msg": "User exists",
+  "data": {
+    "exist": 1
+  }
+}
