@@ -15,11 +15,11 @@ from app.models import User, ShopItem, ShopedItem
 redis_instance = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 # 消息队列连接设置
-connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-channel = connection.channel()
+# connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+# channel = connection.channel()
 
 # 声明队列
-channel.queue_declare(queue='shop_purchase_queue')
+# channel.queue_declare(queue='shop_purchase_queue')
 
 class ShopPurchaseView(APIView):
 
