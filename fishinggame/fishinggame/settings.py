@@ -96,24 +96,24 @@ DATABASES = {
     }
 }
 
-import os
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'database_one',
-        'CLIENT': {
-            'host': f"mongodb://user:{os.environ.get('MONGO_PASS')}@localhost:27017/",
-        }
-    },
-    'another_db': {
-        'ENGINE': 'djongo',
-        'NAME': 'database_two',
-        'CLIENT': {
-            'host': f"mongodb://user:{os.environ.get('MONGO_PASS_ANOTHER')}@localhost:27017/",
-        }
-    }
-}
+# import os
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'database_one',
+#         'CLIENT': {
+#             'host': f"mongodb://user:{os.environ.get('MONGO_PASS')}@localhost:27017/",
+#         }
+#     },
+#     'another_db': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'database_two',
+#         'CLIENT': {
+#             'host': f"mongodb://user:{os.environ.get('MONGO_PASS_ANOTHER')}@localhost:27017/",
+#         }
+#     }
+# }
 
 
 
