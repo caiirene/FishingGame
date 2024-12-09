@@ -1,18 +1,44 @@
 # Create your views here.
 import hashlib
-import time
-import logging
 import json
+import logging
+import time
+
 LOG = logging.getLogger(__name__)
 
 from django.conf import settings
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
+from .models import User, Achievement  # 确保导入了 User 模型
+
+
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework import status
+from rest_framework import serializers
+from .models import Fish
 
-from .models import User, Achievement  # 确保导入了 User 模型
+# 定义 FishSerializer 序列化器
+class FishSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Fish
+        fields = '__all__'
+
+# 定义 CreateFishView 视图类
+class CreateFishView(APIView):
+    def post(self, request):
+        # 获取请求中的数据
+        fish_data = request.data
+
+        # 使用序列化器验证并保存数据
+        serializer = FishSerializer(data=fish_data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"message": "Fish type created successfully!", "data": serializer.data}, status=status.HTTP_201_CREATED)
+        else:
+            return Response({"errors": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
 
 
 # Chat views

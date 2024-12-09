@@ -31,6 +31,19 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# Redis 作为消息代理
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+
+# 配置邮件服务
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your-email@gmail.com'
+EMAIL_HOST_PASSWORD = 'your-email-password'
+DEFAULT_FROM_EMAIL = 'your-email@gmail.com'
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -82,6 +95,26 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+import os
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'database_one',
+        'CLIENT': {
+            'host': f"mongodb://user:{os.environ.get('MONGO_PASS')}@localhost:27017/",
+        }
+    },
+    'another_db': {
+        'ENGINE': 'djongo',
+        'NAME': 'database_two',
+        'CLIENT': {
+            'host': f"mongodb://user:{os.environ.get('MONGO_PASS_ANOTHER')}@localhost:27017/",
+        }
+    }
+}
+
 
 
 # Password validation

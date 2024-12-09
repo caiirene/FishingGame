@@ -9,7 +9,7 @@ urlpatterns = [
 
 
 from django.urls import path
-from app.views import ChatGeneralView, ChatCommandView, ChatDrawView
+from app.chat_openai_view import ChatGeneralView, ChatCommandView, ChatDrawView
 
 urlpatterns = [
     path('general/', ChatGeneralView.as_view(), name='chat_general'),
